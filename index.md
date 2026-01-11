@@ -11,7 +11,7 @@ Cow Tools is a DJ based in Brooklyn.
 <br>
 <a href="https://ra.co/dj/cowtools" target="_blank"><i>RA</i></a>
 <br>
-<a href="https://www.soundcloud.com/cow-tools-cow-tools" target="_blank"><i>Mixes</i></a>
+<a href="https://www.soundcloud.com/cow-tools-cow-tools/tracks" target="_blank"><i>Mixes</i></a>
 <br>
 <a href="mailto:cow.tools.dj@gmail.com"><i>E-Mail</i></a>
 <br>
