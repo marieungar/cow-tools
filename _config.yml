@@ -1,0 +1,24 @@
+title: marie ungar
+url: "https://marieungar.com"
+baseurl: ""
+
+markdown: kramdown
+#ins_logo: "./favicon.png"
+
+tracking_id: #
+
+footer: no
+footer_url: "https://github.com/ankitsultana"
+footer_text: "Page design by Ankit Sultana"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "about"
+   link: "about"
+ - name: "writing"
+   link: "writing"
+ - name: "contact"
+   link: "contact"
