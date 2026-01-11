@@ -6,6 +6,9 @@ layout: default
 <br>
 <br>
 <br>
-<center>Cow Tools</center>
 <br>
 <br>
+cowtools.dj  ((at))  gmail.com
+<br>
+<br>
+<a href="https://www.instagram.com/cow.tools.cow.tools" target="_blank">instagram</a>
