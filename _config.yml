@@ -16,7 +16,5 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "about"
-   link: "about"
  - name: "contact"
    link: "contact"
