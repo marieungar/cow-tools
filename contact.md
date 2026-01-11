@@ -5,7 +5,7 @@ is_contact: true
 <br>
 <br>
 <br>
-cowtools.dj  ((at))  gmail.com
+cow.tools.dj  ((at))  gmail.com
 <br>
 <br>
 <a href="https://www.instagram.com/cow.tools.cow.tools" target="_blank">instagram</a>
