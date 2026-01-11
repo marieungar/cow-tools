@@ -1,5 +1,5 @@
-title: marie ungar
-url: "https://marieungar.com"
+title: Cow Tools
+url: "https://cow-tools.com"
 baseurl: ""
 
 markdown: kramdown
@@ -18,7 +18,5 @@ sass:
 nav:
  - name: "about"
    link: "about"
- - name: "writing"
-   link: "writing"
  - name: "contact"
    link: "contact"
