@@ -62,7 +62,8 @@
             {% if site.ins_logo %}
                 <img id="ins-logo" src="{{ site.ins_logo }}" />
             {% endif %}
-            <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+            <!-- I commented this out to make the website name not display as a link in the top left -->
+            <!-- <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a> -->
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
                     {% if x.name == "Resume" %}
