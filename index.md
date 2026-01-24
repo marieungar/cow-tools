@@ -22,3 +22,17 @@ Cow Tools is a DJ based in Brooklyn.
 <a href="mailto:cow.tools.dj@gmail.com"><i>E-Mail</i></a>
 <br>
 <a href="https://www.instagram.com/cow.tools.cow.tools" target="_blank"><i>Instagram</i></a>
+
+<!-- JavaScript goes here -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const link = document.getElementById("more-link");
+  const dropdown = document.getElementById("dropdown");
+
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    dropdown.style.display =
+      dropdown.style.display === "none" ? "block" : "none";
+  });
+});
+</script>
