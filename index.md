@@ -13,7 +13,7 @@ Cow Tools is a DJ based in Brooklyn.
 <span class="dropdown-wrapper">
   <a href="#" id="more-link-2"><i>Bio</i></a>
   <span id="dropdown-2">
-    <p style="text-align: justify"> Cow Tools started DJing after years on the dancefloor and after helping with underground forest parties while living in the UK. Drawn to many shades of techno, she gravitates toward hardgroove, hypnotic, and minimal, blending resonant baselines with ethereal textures. Now based in NYC, she's been booked to play venues like Bossa Nova Civic Club and Below Grūnd. </p>
+    Cow Tools started DJing after years on the dancefloor and after helping with underground forest parties while living in the UK. Drawn to many shades of techno, she gravitates toward hardgroove, hypnotic, and minimal, blending resonant baselines with ethereal textures. Now based in NYC, she's been booked to play venues like Bossa Nova Civic Club and Below Grūnd.
   </span>
 </span>
 <a href="https://ra.co/dj/cowtools" target="_blank"><i>RA</i></a>
@@ -50,11 +50,6 @@ Cow Tools is a DJ based in Brooklyn.
     display: none;      /* hidden until clicked */
     margin-left: 40px;  /* match Video dropdown */
     margin-top: 5px;    /* small gap below the "Bio" link */
-  }
-
-  #dropdown-2 p {
-    margin: 0;           /* remove default paragraph spacing */
-    font-style: italic;  /* old-timey look */
     text-align: justify;  /* justify the paragraph text */
   }
 
