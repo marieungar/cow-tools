@@ -29,24 +29,29 @@ Cow Tools is a DJ based in Brooklyn.
 <style>
   /* Hide dropdown by default */
   #dropdown {
-  display: none;      /* hide by default */
-  margin-left: 20px;  /* a bit more old-school indent */
-  margin-top: 5px;    /* small gap from the link */
+    display: none;      /* hidden until clicked */
+    margin-left: 20px;  /* old-school indent */
+    margin-top: 5px;    /* small gap below the link */
   }
 
   #dropdown a {
-  display: block;
-  margin: 4px 0;
-  font-style: italic;  /* matches your <i> style, optional */
+    display: block;     /* each dropdown link on its own line */
+    margin: 4px 0;      /* spacing between dropdown links */
+    font-style: italic; /* matches your <i> style */
   }
 
   /* Wrapper spacing and no extra blank space */
   .dropdown-wrapper {
-    line-height: 1; /* collapse extra vertical space */
-    margin-bottom: 0;
+    line-height: 1;     /* collapse extra vertical space */
+    margin: 0;          /* remove default margins */
+  }
+
+  /* Make the "Video" link block-level to remove extra space */
+  #more-link {
+    display: block;     /* only takes necessary vertical space */
+    margin: 0;          /* remove any default spacing */
   }
 </style>
-
 
 <!-- JavaScript goes here -->
 <script>
