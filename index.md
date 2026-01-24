@@ -13,25 +13,37 @@ Cow Tools is a DJ based in Brooklyn.
 <br>
 <a href="https://www.soundcloud.com/cow-tools-cow-tools/tracks" target="_blank"><i>Mixes</i></a>
 <br>
-<a href="#" id="more-link"><i>Videos</i></a>
-<div id="dropdown">
-  <a href="https://www.youtube.com/watch?v=E9lYTVaFHeU" target="_blank"><i>Cow Tools @ Motion Studies</i></a>
+<!-- Dropdown wrapper -->
+<div class="dropdown-wrapper">
+  <a href="#" id="more-link"><i>Video</i></a>
+  <div id="dropdown">
+    <a href="https://www.youtube.com/watch?v=E9lYTVaFHeU" target="_blank"><i>Cow Tools @ Motion Studies</i></a>
+  </div>
 </div>
 <a href="mailto:cow.tools.dj@gmail.com"><i>E-Mail</i></a>
 <br>
 <a href="https://www.instagram.com/cow.tools.cow.tools" target="_blank"><i>Instagram</i></a>
 
 
-<!-- style for the dropdown -->
+
+<!-- CSS for dropdown -->
 <style>
+  /* Hide dropdown by default */
   #dropdown {
-    display: none;       /* hidden by default */
-    margin-left: 10px;   /* indent to match your current layout */
+    display: none;
+    margin-left: 10px; /* optional indent */
   }
 
+  /* Each link in dropdown takes full line */
   #dropdown a {
-    display: block;      /* each link takes full line */
-    margin: 3px 0;       /* optional spacing between links */
+    display: block;
+    margin: 3px 0; /* vertical spacing between links */
+  }
+
+  /* Wrapper spacing and no extra blank space */
+  .dropdown-wrapper {
+    line-height: 1; /* collapse extra vertical space */
+    margin-bottom: 0;
   }
 </style>
 
