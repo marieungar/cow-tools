@@ -48,9 +48,9 @@ Cow Tools is a DJ based in Brooklyn.
   /* Make the "Video" link block-level */
   #more-link {
     display: block;
-    margin-left:0;
-    margin-top: 1.5px;
-    margin-bottom: 1.5px;         
+    margin-left:0px;
+    margin-top: 2px;
+    margin-bottom: 2px;         
   }
 </style>
 
