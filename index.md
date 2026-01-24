@@ -9,6 +9,13 @@ Cow Tools is a DJ based in Brooklyn.
 <br>
 <br>
 <br>
+<!-- Dropdown wrapper -->
+<span class="dropdown-wrapper">
+  <a href="#" id="more-link-2"><i>Bio</i></a>
+  <span id="dropdown-2">
+    Cow Tools started DJing after years on the dancefloor and after helping with underground forest raves while living in the UK. Drawn to many shades of techno, she gravitates toward hardgroove, hypnotic, and minimal, blending resonant baselines with ethereal textures. Now based in NYC, she's been booked to play venues like Bossa Nova Civic Club and Below Grūnd.
+  </span>
+</span>
 <a href="https://ra.co/dj/cowtools" target="_blank"><i>RA</i></a>
 <br>
 <a href="https://www.soundcloud.com/cow-tools-cow-tools/tracks" target="_blank"><i>Mixes</i></a>
@@ -58,13 +65,20 @@ Cow Tools is a DJ based in Brooklyn.
 <!-- JavaScript goes here -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const link = document.getElementById("more-link");
-  const dropdown = document.getElementById("dropdown");
+  const dropdowns = [
+    { linkId: "more-link", menuId: "dropdown" },
+    { linkId: "more-link-2", menuId: "dropdown-2" }
+  ];
 
-  link.addEventListener("click", function (e) {
-    e.preventDefault();
-    dropdown.style.display =
-      dropdown.style.display === "none" ? "block" : "none";
+  dropdowns.forEach(item => {
+    const link = document.getElementById(item.linkId);
+    const menu = document.getElementById(item.menuId);
+
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      menu.style.display =
+        menu.style.display === "none" ? "block" : "none";
+    });
   });
 });
 </script>
