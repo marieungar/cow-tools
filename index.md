@@ -30,14 +30,15 @@ Cow Tools is a DJ based in Brooklyn.
 <style>
   /* Hide dropdown by default */
   #dropdown {
-    display: none;
-    margin-left: 10px; /* optional indent */
+  display: none;      /* hide by default */
+  margin-left: 20px;  /* a bit more old-school indent */
+  margin-top: 5px;    /* small gap from the link */
   }
 
-  /* Each link in dropdown takes full line */
   #dropdown a {
-    display: block;
-    margin: 3px 0; /* vertical spacing between links */
+  display: block;
+  margin: 4px 0;
+  font-style: italic;  /* matches your <i> style, optional */
   }
 
   /* Wrapper spacing and no extra blank space */
