@@ -13,7 +13,7 @@ Cow Tools is a DJ based in Brooklyn.
 <span class="dropdown-wrapper">
   <a href="#" id="more-link-2"><i>Bio</i></a>
   <span id="dropdown-2">
-    Cow Tools found her roots helping organize underground forest parties while living in the UK. Now based in NYC, she's played venues like Bossa Nova Civic Club and Below Grūnd. She gravitates toward hardgroove, hypnotic, and minimal techno, blending resonant basslines and ethereal textures. Also a writer, she finds particular delight in crafting a sense of narrative arc in her sets.
+    Cow Tools found her roots helping organize underground forest parties while living in the UK. Now based in NYC, she's played venues like Bossa Nova Civic Club and Below Grūnd. She gravitates toward hardgroove, hypnotic, and minimal techno, blending resonant basslines with ethereal textures. Also a writer, she finds particular delight in crafting a sense of narrative arc in her sets.
   </span>
 </span>
 <a href="https://ra.co/dj/cowtools" target="_blank"><i>RA</i></a>
@@ -26,6 +26,7 @@ Cow Tools is a DJ based in Brooklyn.
     <a href="https://www.youtube.com/watch?v=E9lYTVaFHeU" target="_blank">Cow Tools @ Motion Studies</a>
   </span>
 </span>
+<a href>Press Kit</i></a>
 <a href="mailto:cow.tools.dj@gmail.com"><i>E-Mail</i></a>
 <br>
 <a href="https://www.instagram.com/cow.tools.cow.tools" target="_blank"><i>Instagram</i></a>
