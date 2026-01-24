@@ -13,7 +13,7 @@ Cow Tools is a DJ based in Brooklyn.
 <span class="dropdown-wrapper">
   <a href="#" id="more-link-2"><i>Bio</i></a>
   <span id="dropdown-2">
-    <p> Cow Tools started DJing after years on the dancefloor and after helping with underground forest parties while living in the UK. Drawn to many shades of techno, she gravitates toward hardgroove, hypnotic, and minimal, blending resonant baselines with ethereal textures. Now based in NYC, she's been booked to play venues like Bossa Nova Civic Club and Below Grūnd. </p>
+    <p style="text-align: justify"> Cow Tools started DJing after years on the dancefloor and after helping with underground forest parties while living in the UK. Drawn to many shades of techno, she gravitates toward hardgroove, hypnotic, and minimal, blending resonant baselines with ethereal textures. Now based in NYC, she's been booked to play venues like Bossa Nova Civic Club and Below Grūnd. </p>
   </span>
 </span>
 <a href="https://ra.co/dj/cowtools" target="_blank"><i>RA</i></a>
@@ -32,7 +32,7 @@ Cow Tools is a DJ based in Brooklyn.
 
 <!-- CSS for dropdown -->
 <style>
-  /* Hide dropdown by default */
+  /* Video dropdown */
   #dropdown {
     display: none;      /* hidden until clicked */
     margin-left: 40px;  /* old-school indent */
@@ -45,21 +45,36 @@ Cow Tools is a DJ based in Brooklyn.
     font-style: italic; /* old-timey italic style */
   }
 
-  /* Wrapper spacing and no extra blank space */
-  .dropdown-wrapper {
-    display: block;     /* behaves like a block, but no default div spacing */
-    line-height: 1;     /* collapse extra vertical space */
-    margin: 0;          /* remove any default margin */
+  /* Bio dropdown */
+  #dropdown-2 {
+    display: none;      /* hidden until clicked */
+    margin-left: 40px;  /* match Video dropdown */
+    margin-top: 5px;    /* small gap below the "Bio" link */
   }
 
-  /* Make the "Video" link block-level */
-  #more-link {
+  #dropdown-2 p {
+    margin: 0;           /* remove default paragraph spacing */
+    font-style: italic;  /* old-timey look */
+    text-align: justify;  /* justify the paragraph text */
+  }
+
+  /* Wrapper spacing and no extra blank space */
+  .dropdown-wrapper {
+    display: block;     /* behaves like a block */
+    line-height: 1;
+    margin: 0;
+  }
+
+  /* Make links block-level */
+  #more-link,
+  #more-link-2 {
     display: block;
-    margin-left:0px;
+    margin-left: 0;
     margin-top: 4px;
-    margin-bottom: 4px;         
+    margin-bottom: 4px;
   }
 </style>
+
 
 
 <!-- JavaScript goes here -->
