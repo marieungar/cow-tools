@@ -27,13 +27,7 @@ Cow Tools is a DJ based in Brooklyn.
   </span>
 </span>
 <a href="mailto:cow.tools.dj@gmail.com"><i>E-Mail</i></a>
-<!-- Dropdown wrapper -->
-<span class="dropdown-wrapper">
-  <a href="#" id="more-link-3"><i>Press Kit</i></a>
-  <span id="dropdown-3">
-    <a href="CowToolsEPK.pdf" target="_blank"><i>Download</i></a>
-  </span>
-</span>
+<a href="CowToolsEPK.pdf" target="_blank"><i>Press Kit</i></a>
 <a href="https://www.instagram.com/cow.tools.cow.tools" target="_blank"><i>Instagram</i></a>
 
 <!-- CSS for dropdown -->
@@ -59,13 +53,6 @@ Cow Tools is a DJ based in Brooklyn.
     text-align: justify;  /* justify the paragraph text */
   }
 
-    /* Press kit dropdown */
-  #dropdown-3 {
-    display: none;      /* hidden until clicked */
-    margin-left: 40px;  /* old-school indent */
-    margin-top: 5px;    /* small gap below the "Video" link */
-  }
-
   /* Wrapper spacing and no extra blank space */
   .dropdown-wrapper {
     display: block;     /* behaves like a block */
@@ -75,8 +62,7 @@ Cow Tools is a DJ based in Brooklyn.
 
   /* Make links block-level */
   #more-link,
-  #more-link-2,
-  #more-link-3 {
+  #more-link-2 {
     display: block;
     margin-left: 0;
     margin-top: 4px;
@@ -91,8 +77,7 @@ Cow Tools is a DJ based in Brooklyn.
 document.addEventListener("DOMContentLoaded", function () {
   const dropdowns = [
     { linkId: "more-link", menuId: "dropdown" },
-    { linkId: "more-link-2", menuId: "dropdown-2" },
-    { linkId: "more-link-3", menuId: "dropdown-3" }
+    { linkId: "more-link-2", menuId: "dropdown-2" }
   ];
 
   dropdowns.forEach(item => {
