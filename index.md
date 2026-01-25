@@ -92,6 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const dropdowns = [
     { linkId: "more-link", menuId: "dropdown" },
     { linkId: "more-link-2", menuId: "dropdown-2" }
+    { linkId: "more-link-3", menuId: "dropdown-3" }
   ];
 
   dropdowns.forEach(item => {
