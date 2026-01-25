@@ -91,7 +91,7 @@ Cow Tools is a DJ based in Brooklyn.
 document.addEventListener("DOMContentLoaded", function () {
   const dropdowns = [
     { linkId: "more-link", menuId: "dropdown" },
-    { linkId: "more-link-2", menuId: "dropdown-2" }
+    { linkId: "more-link-2", menuId: "dropdown-2" },
     { linkId: "more-link-3", menuId: "dropdown-3" }
   ];
 
@@ -99,12 +99,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const link = document.getElementById(item.linkId);
     const menu = document.getElementById(item.menuId);
 
+    if (!link || !menu) return;
+
     link.addEventListener("click", function (e) {
       e.preventDefault();
-       const isHidden = window.getComputedStyle(menu).display === "none";
-       menu.style.display = isHidden ? "block" : "none";
-    });
 
+      const isHidden = window.getComputedStyle(menu).display === "none";
+      menu.style.display = isHidden ? "block" : "none";
+    });
   });
 });
 </script>
+
