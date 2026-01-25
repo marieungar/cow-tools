@@ -101,9 +101,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     link.addEventListener("click", function (e) {
       e.preventDefault();
-      menu.style.display =
-        menu.style.display === "none" ? "block" : "none";
+       const isHidden = window.getComputedStyle(menu).display === "none";
+       menu.style.display = isHidden ? "block" : "none";
     });
+
   });
 });
 </script>
