@@ -26,7 +26,6 @@ Cow Tools is a DJ based in Brooklyn.
     <a href="https://www.youtube.com/watch?v=E9lYTVaFHeU" target="_blank">Cow Tools @ Motion Studies</a>
   </span>
 </span>
-<br>
 <a href="mailto:cow.tools.dj@gmail.com"><i>E-Mail</i></a>
 <!-- Dropdown wrapper -->
 <span class="dropdown-wrapper">
@@ -35,7 +34,6 @@ Cow Tools is a DJ based in Brooklyn.
     <a href="https://www.youtube.com/watch?v=E9lYTVaFHeU" target="_blank">Download</a>
   </span>
 </span>
-<br>
 <a href="https://www.instagram.com/cow.tools.cow.tools" target="_blank"><i>Instagram</i></a>
 
 <!-- CSS for dropdown -->
