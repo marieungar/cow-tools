@@ -26,8 +26,15 @@ Cow Tools is a DJ based in Brooklyn.
     <a href="https://www.youtube.com/watch?v=E9lYTVaFHeU" target="_blank">Cow Tools @ Motion Studies</a>
   </span>
 </span>
-<a href><i>Press Kit</i></a>
+<br>
 <a href="mailto:cow.tools.dj@gmail.com"><i>E-Mail</i></a>
+<!-- Dropdown wrapper -->
+<span class="dropdown-wrapper">
+  <a href="#" id="more-link-3"><i>Press Kit</i></a>
+  <span id="dropdown-3">
+    <a href="https://www.youtube.com/watch?v=E9lYTVaFHeU" target="_blank">Download</a>
+  </span>
+</span>
 <br>
 <a href="https://www.instagram.com/cow.tools.cow.tools" target="_blank"><i>Instagram</i></a>
 
@@ -52,6 +59,13 @@ Cow Tools is a DJ based in Brooklyn.
     margin-left: 40px;  /* match Video dropdown */
     margin-top: 5px;    /* small gap below the "Bio" link */
     text-align: justify;  /* justify the paragraph text */
+  }
+
+    /* Press kit dropdown */
+  #dropdown-3 {
+    display: none;      /* hidden until clicked */
+    margin-left: 40px;  /* old-school indent */
+    margin-top: 5px;    /* small gap below the "Video" link */
   }
 
   /* Wrapper spacing and no extra blank space */
