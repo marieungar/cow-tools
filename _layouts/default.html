@@ -55,6 +55,22 @@
     {% else %}
         <meta name="twitter:image" content="{{ site.profile_picture }}">
     {% endif %}
+    <!--for SEO-->
+    {% raw %}
+    <script type="application/ld+json"> 
+    {
+    "@context": "https://schema.org",
+    "@type": "MusicArtist",
+    "name": "Cow Tools",
+    "url": "https://cow-tools.com",
+    "sameAs": [
+        "https://soundcloud.com/cow-tools-cow-tools",
+        "https://www.instagram.com/cow.tools.cow.tools",
+        "https://ra.co/dj/cowtools"
+    ]
+    }
+    </script>
+    {% endraw %}
 </head>
 <body>
     <div class="wrapper">
