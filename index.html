@@ -28,7 +28,7 @@ Cow Tools is a DJ based in Brooklyn.
 </span>
 <!-- Dropdown wrapper -->
 <span class="dropdown-wrapper">
-  <a href="#" id="more-link"><i>Interviews</i></a>
+  <a href="#" id="more-link-3"><i>Interviews</i></a>
   <span id="dropdown">
     <a href="https://www.txrradio.com/artists/cow-tools" target="_blank">Tension/Release on Newtown Radio</a>
   </span>
@@ -71,7 +71,8 @@ Cow Tools is a DJ based in Brooklyn.
 
   /* Make links block-level */
   #more-link,
-  #more-link-2 {
+  #more-link-2,
+  #more-link-3 {
     display: block;
     margin-left: 0;
     margin-top: 4px;
@@ -86,7 +87,8 @@ Cow Tools is a DJ based in Brooklyn.
 document.addEventListener("DOMContentLoaded", function () {
   const dropdowns = [
     { linkId: "more-link", menuId: "dropdown" },
-    { linkId: "more-link-2", menuId: "dropdown-2" }
+    { linkId: "more-link-2", menuId: "dropdown-2" },
+    { linkId: "more-link-3", menuId: "dropdown-3" }
   ];
 
   dropdowns.forEach(item => {
